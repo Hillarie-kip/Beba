@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context="com.techkip.bebarider.CallDriver">
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/a"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bree_serif"
+                    android:gravity="center"
+                    android:text="Thanks For Riding with Us:Please Rate your Driver"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                    android:id="@+id/ratingBar"
+                    style="@style/Widget.MaterialRatingBar.RatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:mrb_indeterminateTintMode="multiply"
+                    app:mrb_progressTint="#696666" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_CommentTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Comment.."
+                    android:inputType="textMultiLine"
+                    app:met_baseColor="@color/colorPrimaryDark"
+                    app:met_floatingLabel="highlight"
+                    app:met_singleLineEllipsis="false"
+                    app:met_textColorHint="@color/colorPrimaryDark" />
+
+                <Button
+                    android:id="@+id/btn_SubmitRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="20dp"
+                    android:background="@drawable/btn_submit"
+                    android:fontFamily="@font/bree_serif"
+                    android:text="SUBMIT"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/a"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bree_serif"
+                    android:gravity="center"
+                    android:text="Having a complaint??"
+                    android:textColor="@color/colorPrimaryDark" />
+
+
+
+                <Button
+                    android:id="@+id/btn_mpesa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="#a92a0e"
+                    android:fontFamily="@font/bree_serif"
+                    android:text="Click Here"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>

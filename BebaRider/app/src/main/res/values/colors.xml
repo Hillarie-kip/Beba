@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a2746</color>
+    <color name="colorPrimaryDark">#121d35</color>
+    <color name="colorAccent">#ea4402</color>
+
+    <color name="colorPrimaryLight">#404f73</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#b90404</color>
+    <color name="yellow">#ffb300</color>
+    <color name="yellowlight">#56ffb300</color>
+    <color name="yellowish">#ffd500</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="blue">#3dd6dc</color>
+    <color name="green">#449f01</color>
+    <color name="btnSignIn">#021b5b</color>
+
+    <color name="baseReleaseColor">#ffb300</color>
+    <color name="basePressColor">#ffb300</color>
+
+    <!--  cbc9c9 97002f 5c011e-->
+</resources>

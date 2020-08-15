@@ -1,0 +1,199 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="Login" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/Widget.AppTheme.ActionBar</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppTheme.ActionBar</item>
+    </style>
+    <style name="AppThemeCustom" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+        <item name="android:colorBackground">@color/transparent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="AppLoginTheme" parent="Theme.AccountKit">
+        <item name="com_accountkit_background_color">@color/colorPrimary</item>
+        <item name="com_accountkit_button_background_color">@color/colorAccent</item>
+        <item name="com_accountkit_button_disabled_background_color">@color/yellow</item>
+        <item name="com_accountkit_button_text_color">@color/colorPrimaryDark</item>
+        <item name="com_accountkit_input_border_color">@color/yellow</item>
+        <item name="com_accountkit_input_background_color">#eceaea</item>
+      <item name="com_accountkit_text_color">@color/colorAccent</item>
+
+        <item name="com_accountkit_status_bar_color">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="Bar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+            <item name="android:textColor">#00FF00</item>
+            <item name="android:colorBackground">@color/colorPrimary</item>
+            <item name="android:typeface">monospace</item>
+            <item name="android:headerBackground">@color/colorPrimary</item>
+        </style>
+
+    <style name="ProgressKali" parent="android:Theme.DeviceDefault.Dialog">
+       <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+       <item name="android:fontFamily">@font/bree_serif</item>
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+        <item name="DialogSpotColor">@color/yellow</item>
+        <item name="DialogSpotCount">8</item>
+    </style>
+
+    <style name="Widget.AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <!-- action bar background - without android prefix -->
+        <item name="background">@color/colorPrimaryDark</item>
+        <!-- action bar elevation - without android prefix -->
+        <item name="elevation">4dp</item>
+    </style>
+    <style name="ThemeOverlay.AppTheme.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- title text color -->
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <!-- subtitle text color -->
+        <item name="android:textColorSecondary">@color/green</item>
+        <!-- action menu item text color -->
+        <item name="actionMenuTextColor">@color/yellow</item>
+        <!-- action menu item icon color -->
+        <item name="colorControlNormal">@color/colorPrimaryLight</item>
+    </style>
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/bree_serif</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:background">#121d35</item>
+    </style>
+    <style name="nolocation">
+        <item name="textBold">true</item>
+        <item name="textColor">@color/white</item>
+        <item name="font">@font/amarante</item>
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/red</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="iconStart">@mipmap/ic_location_marker</item>
+        <item name="iconEnd">@mipmap/ic_location_marker</item>
+        <item name="length">LONG</item> <!--LONG or SHORT-->
+        <item name="gravity">center</item> <!--top or center-->
+        <item name="radius">25dp</item>
+    </style>
+    <style name="upapproved">
+        <item name="textBold">true</item>
+        <item name="textColor">@color/white</item>
+        <item name="font">@font/amarante</item>
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/red</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="iconStart">@mipmap/ic_refresh</item>
+        <item name="length">LONG</item> <!--LONG or SHORT-->
+        <item name="gravity">center</item> <!--top or center-->
+        <item name="radius">25dp</item>
+    </style>
+    <style name="rate">
+        <item name="textBold">true</item>
+        <item name="textColor">@color/white</item>
+        <item name="font">@font/amarante</item>
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/colorPrimaryDark</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/colorAccent</item>
+        <item name="iconStart">@mipmap/ic_star</item>
+        <item name="iconEnd">@mipmap/ic_star</item>
+        <item name="length">LONG</item> <!--LONG or SHORT-->
+        <item name="gravity">center</item> <!--top or center-->
+        <item name="radius">25dp</item>
+    </style>
+    <style name="requesting">
+        <item name="textBold">true</item>
+        <item name="textColor">@color/white</item>
+        <item name="font">@font/amarante</item>
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/red</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="iconStart">@mipmap/ic_launcher</item>
+        <item name="iconEnd">@mipmap/ic_launcher</item>
+        <item name="length">LONG</item> <!--LONG or SHORT-->
+        <item name="gravity">center</item> <!--top or center-->
+        <item name="radius">25dp</item>
+    </style>
+    <style name="nodriver">
+        <item name="textBold">true</item>
+        <item name="textColor">@color/colorPrimaryDark</item>
+        <item name="font">@font/amarante</item>
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/yellow</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="iconStart">@mipmap/ic_user</item>
+        <item name="iconEnd">@mipmap/ic_user</item>
+        <item name="length">LONG</item> <!--LONG or SHORT-->
+        <!-- <item name="gravity">center</item> top or center-->
+        <item name="radius">25dp</item>
+    </style>
+    <style name="success">
+        <item name="textBold">true</item>
+        <item name="textColor">@color/white</item>
+        <item name="font">@font/amarante</item>
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/green</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="length">SHORT</item> <!--LONG or SHORT-->
+        <!-- <item name="gravity">center</item> top or center-->
+        <item name="radius">25dp</item>
+    </style>
+    <style name="error">
+        <item name="textBold">true</item>
+        <item name="textColor">@color/white</item>
+        <item name="font">@font/amarante</item>
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/red</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="length">SHORT</item> <!--LONG or SHORT-->
+        <!-- <item name="gravity">center</item> top or center-->
+        <item name="radius">25dp</item>
+    </style>
+</resources>

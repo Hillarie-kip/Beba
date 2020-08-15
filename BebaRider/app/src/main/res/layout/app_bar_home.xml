@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="com.techkip.bebarider.Home">
+
+
+
+    <include layout="@layout/content_home" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_placeedittext"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_location_marker" />
+
+            <fragment
+
+                android:id="@+id/place_location"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="5" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/yellowlight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_placeedittextbottom"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_destination_marker" />
+
+            <fragment
+                android:id="@+id/place_destination"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/transparent"
+            app:popupTheme="@style/Bar" />
+
+    </android.support.design.widget.AppBarLayout>
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        app:menu_icon="@mipmap/ic_home"
+        app:menu_colorNormal="@color/colorAccent"
+        app:menu_colorPressed="@color/yellow"
+        app:menu_labels_colorNormal="@color/colorPrimaryDark"
+        app:menu_labels_cornerRadius="50dp"
+        app:menu_labels_position="left"
+        app:menu_labels_showShadow="true"
+        app:menu_labels_textColor="@color/white"
+        app:menu_labels_textSize="15sp"
+        app:menu_labels_colorPressed="@color/blue"
+        fab:menu_labels_showAnimation="@anim/jump_from_down"
+        fab:menu_labels_hideAnimation="@anim/scale_up"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_shadowColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="120dp"
+        android:id="@+id/floatingActionMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_set_home"
+            android:src="@mipmap/ic_set_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_colorPressed="@color/colorPrimaryDark"
+            app:fab_label="Set Home"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_home"
+            android:src="@mipmap/ic_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_colorPressed="@color/colorPrimaryDark"
+            app:fab_label="Home"
+            fab:fab_size="mini" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>

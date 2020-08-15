@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "195430724943",
+    "firebase_url": "https://beba-app.firebaseio.com",
+    "project_id": "beba-app",
+    "storage_bucket": "beba-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195430724943:android:8baa5f65c0386b8f",
+        "android_client_info": {
+          "package_name": "com.techkip.bebadriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195430724943-v15gljc19vcb7ga06dhv7h5pqjpns3r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBykBAqsUCiibNnOTlFhsi7Zv8iIi_ssaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195430724943:android:b02d0cbeb77a0434",
+        "android_client_info": {
+          "package_name": "com.techkip.bebarider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195430724943-v15gljc19vcb7ga06dhv7h5pqjpns3r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBykBAqsUCiibNnOTlFhsi7Zv8iIi_ssaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    tools:context="com.techkip.bebadriver.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:fontFamily="@font/bree_serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Beba Drive "
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:id="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_launcher" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_forgotpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_sign_in"
+            android:text="SIGN IN"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_sign_in"
+            android:text="SIGN UP"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_forgotpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:fontFamily="@font/bree_serif"
+            android:id="@+id/btn_continue"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sign_in"
+            android:text="CONTINUE"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+
+    <TextView
+        android:fontFamily="@font/bree_serif"
+        android:id="@+id/tv_forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="©2018 at TechKip™"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

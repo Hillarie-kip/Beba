@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true">
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amarante"
+                android:text="Vehicle Photo"
+                android:textColor="@color/yellow"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_carProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/ic_user"
+                app:civ_border_color="@color/yellow"
+                app:civ_border_width="4dp"
+                app:civ_fill_color="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amarante"
+                android:text="Seats Number"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbtn_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/yellow" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="@color/yellow" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textColor="@color/yellow" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textColor="@color/yellow" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="@color/yellow" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textColor="@color/yellow" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amarante"
+                android:text="Plate Number"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_PlateNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bree_serif"
+                android:hint="Plate Number"
+                android:inputType="text"
+                android:textColorHint="@color/yellow"
+                app:met_baseColor="@color/white"
+                app:met_primaryColor="@color/white"
+                app:met_singleLineEllipsis="true"
+                app:met_textColorHint="@color/yellow" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtn_bebaBronze"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bree_serif"
+                    android:text="Beba Bronze"
+                    android:textColor="@color/yellow" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_bebaSilver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bree_serif"
+                    android:text="Beba Silver"
+                    android:textColor="@color/yellow" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_bebaGold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bree_serif"
+                    android:text="Beba Gold"
+                    android:textColor="@color/yellow" />
+
+                <RadioButton
+                    android:visibility="gone"
+                    android:id="@+id/rbtn_bebaBoda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bree_serif"
+                    android:text="Beba Boda"
+                    android:textColor="@color/yellow" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+</ScrollView>

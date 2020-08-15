@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".login.Register"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:background="@color/yellow">
+    
+    <ScrollView
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_launcher" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:fontFamily="@font/acme"
+                    android:hint="National Id"
+                    android:id="@+id/et_nationalId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@mipmap/ic_userid"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:fontFamily="@font/acme"
+                    android:id="@+id/et_firstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorAccent"
+                    android:drawableEnd="@mipmap/ic_user"
+                    android:hint="First Name"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:fontFamily="@font/acme"
+                    android:id="@+id/et_lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorAccent"
+                    android:drawableEnd="@mipmap/ic_user"
+                    android:hint="Last Name"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="@font/acme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Car Type"
+                    android:textColor="@color/colorPrimary" />
+
+                <Spinner
+
+                    android:id="@+id/sp_cartype"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Car Seats"
+                    android:fontFamily="@font/acme"
+                    android:textColor="@color/colorPrimary" />
+
+                <Spinner
+
+                    android:id="@+id/sp_carseat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:fontFamily="@font/acme"
+                    android:id="@+id/et_carplate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@mipmap/ic_licence"
+                    android:hint="Car Plate Number"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <EditText
+                    android:fontFamily="@font/acme"
+                    android:id="@+id/et_driverLicence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Driver Licence"
+                    android:drawableEnd="@mipmap/ic_licence"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <CheckBox
+                android:id="@+id/chk_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:text="i agree terms and conditions"
+                android:textStyle="italic" />
+
+
+            <Button
+                android:fontFamily="@font/arbutus"
+                android:layout_margin="15dp"
+                android:id="@+id/Submit"
+                android:textColor="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_signup"
+                android:text="Register" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/txt_login"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bree_serif"
+                    android:text="Already have an account??" />
+
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/txt_terms"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bree_serif"
+                    android:text="Terms and conditions??" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

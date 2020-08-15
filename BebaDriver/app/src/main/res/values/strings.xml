@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Beba Drive</string>
+    <string name="share">Hey! you have a car join our hailing taxi service : https://play.google.com/store/apps/details?id=com.techkip.bebadriver</string>
+    <string name="playstoreUri">market://details?id=com.techkip.bebadriver</string>
+    <string name="ratelink">market://details?id= https://play.google.com/store/apps/details?id=com.techkip.bebadriver</string>
+
+    <string name="google_direction_api">AIzaSyB1Z1C8CpmqbkFnZdyQMwddrpsiRBOd7h4</string>
+
+    <string name="FACEBOOK_APP_ID">1675990475844391</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">bef69c7d6843e0b4e998036a5cfd73b7</string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="open_location_settings">Open </string>
+    <string name="gps_network_not_enabled">Please Turn On Your Gps for Beba Drive to work well!</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="carType">
+        <item>Choose The Car Type ..</item>
+        <item>Beba Bronze</item>
+        <item>Beba Silver </item>
+        <item>Beba Gold</item>
+    </string-array>
+
+    <string-array name="carSeat">
+        <item>Choose Number of seats ..</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="Tc">Terms &amp; Conditions</string>
+    <string name="privacy">Effective: April 20, 2018 \n
+==================================== \n
+This Privacy Policy describes how Beba collects, uses and discloses information, and what choices you have with respect to the information.
+Updates in this version of the Privacy Policy reflect changes in data protection law. In addition, we have worked to make the Privacy Policy clearer and more understandable by:
+organizing it into the sections listed in the Table of Contents below,providing a series of examples that help illustrate how the policies may be implemented by Beba and defining
+and capitalizing a few terms that are used more than once for simplicity and brevity.When we refer to “Beba”, we mean the Beba entity that acts as the controller or processor of
+your information, as explained in more detail in the “Identifying the Data Controller and Processor” section below.</string>
+
+    <string name="terms">
+==================================== \n
+Last updated: June 21, 2018 \n
+Please read these Terms and Conditions ("Terms", "Terms and Conditions")
+carefully before using the http://www.mysite.com website (the "Service")
+operated by Beba ("us", "we", or "our"). \n
+
+Your access to and use of the Service is conditioned on your acceptance of and
+compliance with these Terms. These Terms apply to all visitors, users and
+others who access or use the Service.\n
+
+By accessing or using the Service you agree to be bound by these Terms. If you
+disagree with any part of the terms then you may not access the Service. This
+Terms and Conditions agreement for Beba is powered by <a href="http://hilla.tech-kip.co.ke/">TechKip!</a>\n </string>
+
+    <string name="accounts">
+==================================== \n
+
+When you create an account with us, you must provide us information that is
+accurate, complete, and current at all times. Failure to do so constitutes a
+breach of the Terms, which may result in immediate termination of your account
+on our Service. \n
+
+You are responsible for safeguarding the password that you use to access the
+Service and for any activities or actions under your password, whether your
+password is with our Service or a third-party service.\n
+
+You agree not to disclose your password to any third party. You must notify us
+immediately upon becoming aware of any breach of security or unauthorized use of your account.\n </string>
+
+    <string name="links">
+==================================== \n
+Our Service may contain links to third-party web sites or services that are
+not owned or controlled by Beba.\n
+
+Beba has no control over, and assumes no responsibility for, the content,
+privacy policies, or practices of any third party web sites or services. You
+further acknowledge and agree that Beba shall not be responsible or liable,
+directly or indirectly, for any damage or loss caused or alleged to be caused
+by or in connection with use of or reliance on any such content, goods or
+services available on or through any such web sites or services.\n
+
+We strongly advise you to read the terms and conditions and privacy policies
+of any third-party web sites or services that you visit.\n </string>
+
+    <string name="laws">
+==================================== \n
+These Terms shall be governed and construed in accordance with the laws of
+KENYA, without regard to its conflict of law provisions.\n
+
+Our failure to enforce any right or provision of these Terms will not be
+considered a waiver of those rights. If any provision of these Terms is held
+to be invalid or unenforceable by a court, the remaining provisions of these
+Terms will remain in effect. These Terms constitute the entire agreement
+between us regarding our Service, and supersede and replace any prior
+agreements we might have between us regarding the Service.\n
+    </string>
+
+    <string name="changes">
+==================================== \n
+
+We reserve the right, at our sole discretion, to modify or replace these Terms
+at any time. If a revision is material we will try to provide at least 30 days
+notice prior to any new terms taking effect. What constitutes a material
+change will be determined at our sole discretion. \n
+
+By continuing to access or use our Service after those revisions become
+effective, you agree to be bound by the revised terms. If you do not agree to
+the new terms, please stop using the Service.\n
+
+
+</string>
+</resources>

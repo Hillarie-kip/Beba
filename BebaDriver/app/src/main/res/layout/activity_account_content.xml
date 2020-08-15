@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:orientation="horizontal"
+                            card_view:cardCornerRadius="2dp"
+                            card_view:cardElevation="5dp"
+                            card_view:cardUseCompatPadding="true">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginTop="100dp"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:gravity="center_horizontal"
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+                                    <TextView
+                                        android:id="@+id/tv_first_name"
+                                        android:layout_marginRight="7dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="Hillary"
+                                        android:textColor="#000000"
+                                        android:textSize="21sp"
+                                        android:textStyle="bold" />
+                                    <TextView
+                                        android:id="@+id/tv_last_name"
+                                        android:layout_marginLeft="7dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="Kip"
+                                        android:textColor="#000000"
+                                        android:textSize="21sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+                                <TextView
+                                        android:gravity="center_horizontal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/amarante"
+                                        android:text="Other Info :"
+                                        android:textColor="@color/colorAccent"
+                                        android:textStyle="bold" />
+                                <android.support.v7.widget.CardView
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal"
+                                                android:paddingLeft="25dp">
+
+                                                <TextView
+                                                    android:textColor="@color/colorAccent"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center_vertical"
+                                                    android:text="Driver Id  :"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:id="@+id/tv_driverId"
+                                                    android:textColor="@color/black"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center_vertical"
+                                                    android:paddingLeft="20dp"
+                                                    android:text="25340512468"
+                                                    android:textStyle="bold" />
+                                            </LinearLayout>
+                                            <LinearLayout
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal"
+                                                android:paddingLeft="25dp">
+
+                                                <TextView
+                                                    android:textColor="@color/colorAccent"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center_vertical"
+                                                    android:text="Contacts :"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+
+                                                    android:id="@+id/tv_phone"
+                                                    android:textColor="@color/black"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center_vertical"
+                                                    android:paddingLeft="20dp"
+                                                    android:text="+254727025739"
+                                                    android:textStyle="bold" />
+                                            </LinearLayout>
+                                            <LinearLayout
+                                                android:layout_marginTop="10dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal"
+                                                android:paddingLeft="25dp">
+
+                                                <TextView
+                                                    android:textColor="@color/colorAccent"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center_vertical"
+                                                    android:text="Licence    :"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:id="@+id/tv_national_id"
+                                                    android:textColor="@color/black"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center_vertical"
+                                                    android:paddingLeft="20dp"
+                                                    android:text="MKF45YF"
+                                                    android:textStyle="bold" />
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </android.support.v7.widget.CardView>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </RelativeLayout>
+
+            </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv_driverImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_launcher"
+                app:civ_border_color="@color/yellow"
+                app:civ_border_width="1dp"
+                app:civ_fill_color="@color/colorAccent" />
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="305dp">
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:fontFamily="@font/hammersmith_one"
+                    android:textSize="20sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/bree_serif"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Distance(Km)"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_distance_covered"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="125"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/bree_serif"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Earned (ksh)"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_amount_earned"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="1205"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/hammersmith_one"
+                android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="@font/bree_serif"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Paid"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_amount_paid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="125000"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="@font/bree_serif"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Debt"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_amount_debt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="125000"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="@font/bree_serif"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Balance"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_amount_balance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="125000"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
